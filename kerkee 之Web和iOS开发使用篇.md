@@ -718,7 +718,7 @@ global.kerkeeJSManager = kerkee;
 
 6、编译运行：
 
-![Xcode 编译运行效果](http://7xqhx8.com1.z0.glb.clouddn.com/kerkee_Xcode.gif) 
+![Xcode 编译运行效果](http://7xqhx8.com1.z0.glb.clouddn.com/kerkee_xcode.gif) 
 
 
 
