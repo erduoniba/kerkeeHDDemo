@@ -1,0 +1,60 @@
+<!--Create by Harry on 17/06/2016-->
+<!--  Copyright © 2016年 HarryDeng. All rights reserved.-->
+
+<html>
+    <head>
+        <title>kerkee测试h5界面</title>
+        <meta http-equiv="Content-Type"content="text/html; charset=UTF-8">
+            <script>
+                function test()
+                {
+                    alert("test alert...");
+                    return "abcd";
+                }
+                </script>
+            </head>
+    
+    <body>
+        <br/>
+        <br/>
+        
+        <input type="button" value="js数据传递给oc" onclick="kerkeeJSManager.jsToOc('js数据传递给oc'); ">
+            
+        <br/>
+            
+        <input type="button" value="js数据传递给oc，oc回传给js" onclick="kerkeeJSManager.mutualJSOC('js数据传递给oc，oc回传给js', function(json)
+                {
+                console.log(JSON.stringify(json))
+                }); ">
+                
+        <br/>
+                
+        <button id="hallo" onclick="buttonClick1('js数据传递给oc,h5的方法单独写出buttonClick1')">
+            js数据传递给oc,h5的方法单独写出buttonClick1 </button>
+        
+        <br/>
+        
+        <button id="hallo" onclick="buttonClick2('js数据传递给oc,h5的方法单独写出buttonClick2')">
+            js数据传递给oc,h5的方法单独写出buttonClick2 </button>
+        
+        <br/>
+                
+    </body>
+
+            <script>
+            var kerkeeJSManager;
+            function buttonClick1(s1)
+            {
+                kerkeeJSManager.jsToOc(s1);
+            }
+            
+            function ocToJs(s1)
+            {
+                console.log(JSON.stringify(s1))
+            }
+            </script>
+            
+            <!--html页面绑定js事件，一般放在href之后，如果放在之前加载JS事件会阻塞界面-->
+            <script type="text/javascript" src="kerkeeTest.js"></script>
+            
+</html>

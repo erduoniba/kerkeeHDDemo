@@ -1,0 +1,13 @@
+PODS:
+  - kerkee (1.0.3):
+    - SSKeychain
+  - SSKeychain (1.4.0)
+
+DEPENDENCIES:
+  - kerkee (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  kerkee: 53765899a49b40794d1e97d7281d274363584f44
+  SSKeychain: c71293fa57216a40ab06c23f4085387583293de4
+
+COCOAPODS: 0.39.0
