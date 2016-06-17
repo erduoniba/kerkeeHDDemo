@@ -721,9 +721,6 @@ global.kerkeeJSManager = kerkee;
 ![Xcode 编译运行效果](http://7xqhx8.com1.z0.glb.clouddn.com/kerkee_xcode.gif) 
 
 
-
-![Safari进行web调试](http://7xqhx8.com1.z0.glb.clouddn.com/kerkee_Safari.gif)  
-
 7、demo下载地址：[GitHub地址](https://github.com/erduoniba/kerkeeHDDemo.git)
 
 
