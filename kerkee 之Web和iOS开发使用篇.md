@@ -16,7 +16,7 @@ QQ交流群：110710084
 
 **二、简单的使用：**
 
-[kerkee在iOS上的快速上手指南](http://blog.linzihong.com/kerkeezai-iosshang-de-kuai-su-sha ng-shou-zhi-nan/) 
+[kerkee在iOS上的快速上手指南](http://blog.linzihong.com/kerkeezai-iosshang-de-kuai-su-shang-shou-zhi-nan/) 
 
 1、建立新项目 `kerkeeHDDemo`  在项目目录中建立 `Podfile` 文件：
 
